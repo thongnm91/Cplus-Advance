@@ -15,3 +15,11 @@ void  signedChar(signed char a, signed char b) {
 	std::cout << "  " << std::bitset<8>(result) << "  (" << static_cast<int>(result) << ")\n";
 }
 
+void loopOverFlow() {
+	int b = 0;
+	for (signed char a = 0; a < 128; a++) {
+		b++;
+		std::cout << static_cast<int>(a) << "\n";
+		if (b == 500) break;
+	}
+}

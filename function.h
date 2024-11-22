@@ -5,4 +5,5 @@
 
 void unsignedChar(unsigned char a, unsigned char b);
 void  signedChar(signed char a, signed char b);
+void loopOverFlow();
 #endif // !1

@@ -8,4 +8,7 @@ void main() {
 	signedChar(5, -3);
 	std::cout << "-----Example:---------\n";
 	signedChar(-7, -3);
+	std::cout << "-----Example:---------\n";
+	loopOverFlow();
+	for(int a = 0; a )
 }
